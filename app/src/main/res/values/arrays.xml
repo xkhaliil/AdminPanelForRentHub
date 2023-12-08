@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CarTypes">
+        <item>SUV</item>
+        <item>CONVERTIBLE</item>
+        <item>COUPE</item>
+        <item>HATCHBACK</item>
+        <item>SEDAN</item>
+        <item>SPORTS</item>
+        <item>TRUCK</item>
+        <item>VAN</item>
+        <item>PICKUP</item>
+        <item>MINI_BUS</item>
+    </string-array>
+</resources>

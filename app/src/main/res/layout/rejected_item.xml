@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="-10dp">
+
+        <RelativeLayout
+            android:layout_width="414dp"
+            android:layout_height="123dp"
+            android:background="#ede0d4"
+            android:padding="1dp"
+            tools:layout_editor_absoluteX="-5dp">
+
+            <ImageView
+                android:id="@+id/imageview"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:id="@+id/carname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/imageview"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:text="Name" />
+
+            <TextView
+                android:id="@+id/startdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/carname"
+                android:layout_toEndOf="@id/imageview"
+                android:textColor="@color/black"
+                tools:text="startdate" />
+
+            <TextView
+                android:id="@+id/enddate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/startdate"
+                android:layout_toEndOf="@id/imageview"
+                android:textColor="@color/black"
+                tools:text="enddate" />
+
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/enddate"
+                android:layout_toEndOf="@id/imageview"
+                android:textColor="@color/black"
+                tools:text="location" />
+
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/location"
+                android:layout_toEndOf="@id/imageview"
+                android:textColor="@color/black"
+                tools:text="total" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@id/imageview"
+                android:layout_marginTop="40dp"
+                android:background="#dda15e" />
+
+
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
